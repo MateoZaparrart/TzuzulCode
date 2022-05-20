@@ -1,0 +1,64 @@
+body{
+    font-family: 'Inconsolata', monospace; 
+    background-image:url(./ele.jpg);
+    margin: 0px;
+}
+#div1{
+    margin: 10% auto;
+    color: black;
+    width: 350px;
+    height: 570px;
+    border: 3px solid black ;
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(5px);
+}
+#h2{
+    color: rgb(250, 250, 250);
+    border-bottom: 1px black solid;
+    margin: 0px;
+ }
+form input{
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(5px);
+    margin: 10px;
+    padding: 5px;
+}
+#sexo{
+    border: 1px solid black;
+}
+h3{
+    display: inline;
+    margin: 0px;
+}
+.iconos{
+    width: 25px;
+    padding: 0px;
+}
+#twitter{
+    width: 25px;
+    height: 20px;
+    padding: 2.5px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    border-bottom:rgb(0, 0, 255) solid 1px ;
+}
+a:active{
+    background-color: rgb(100,100,100);
+}
+button{
+    width: 50px;
+    height: 50;
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(5px);
+}
+::placeholder{
+    color: rgb(50, 50, 50);
+}
+#center{
+    text-align: center;
+}

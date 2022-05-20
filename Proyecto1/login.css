@@ -1,0 +1,49 @@
+body{
+    font-family: 'Inconsolata', monospace; 
+    background-image:url(./ele.jpg);
+    margin: 0px;
+}
+#div1{
+    margin: 18% auto;
+    color: black;
+    width: 350px;
+    height: 290px;
+    border: 3px solid black ;
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(5px);
+}
+#center{
+    text-align: center;
+}
+#h2{
+   color: rgb(250, 250, 250);
+   border-bottom: 1px black solid;
+   margin: 0px;
+}
+form input{
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(5px);
+    margin: 10px;
+    padding: 5px;
+}
+h3{
+    display: inline;
+    margin: 0px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    border-bottom:rgb(0, 0, 255) solid 1px ;
+}
+a:active{
+    background-color: rgb(100,100,100);
+}
+::placeholder{
+    color: rgb(50, 50, 50);
+}
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./register.css">
+        <link rel="icon">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="div1">
+         <h2 id="h2">Registrarse</h2>
+            <form id="center" autocomplete="on" >
+             <label>
+             <input type="text" required placeholder="Nombre" name="nombre">
+             </label><br>
+
+             <label>
+             <input type="text" required placeholder="Apellido" name="apellido">
+             </label><br>
+
+             <label>
+             <input type="email" required placeholder="E-mail" name="email">
+             </label><br>
+
+             <label>
+             <input type="password" required placeholder="Contraseña" oncopy="return false" name="contraseña">
+             </label><br>
+
+             <label>
+             <input type="password" required placeholder="Confirmar contraseña" oncopy="return false" name="contraseña2">
+             </label><br>
+
+            <label>Fecha de nacimiento:
+                <input type="date" required name="nacimiento">
+            </label><br>
+
+            <span id="sexo">
+             <h3>Sexo:</h3>
+                 <label><input type="radio" name="sexo" required>Masculino</label>
+                 <label><input type="radio" name="sexo" required>Femenino</label><br>
+            </span>
+
+             <label>
+             <input type="checkbox" name="terminos" required>
+             Acepto los <a href="linkrelleno.html">terminos y condiciones</a>
+             </label>
+             
+             <label>
+            <input type="submit" value="Registrarse" name="submit"><br> 
+             </label>
+            </form>
+            <div id="center">
+             <p>¿Ya tiene una cuenta?<a href="login.html">Iniciar Sesión</a></p>
+             <p>Tambien puede iniciar sesión con:</p>
+             <a href="linkrelleno.html"><button><img src="iconogoogle.png" class="iconos"></button></a>
+             <a href="linkrelleno.html"><button><img src="apple.png" class="iconos"></button></a>
+             <a href="linkrelleno.html"><button><img src="twitter.png" class="iconos" id="twitter"></button></a>
+            </div>
+        </div>
+    </body>
+    </html>
